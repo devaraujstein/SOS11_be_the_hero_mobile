@@ -7,14 +7,16 @@ export default StyleSheet.create({
     paddingHorizontal: 24,
     paddingTop: Constants.statusBarHeight + 20,
   },
-
+  
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    margin: 35,
   },
 
   incident: {
+    margin: 20,
     padding: 24,
     borderRadius: 8,
     backgroundColor: '#FFF',
@@ -36,10 +38,11 @@ export default StyleSheet.create({
   },
 
   contactBox: {
-    padding: 24,
+    margin: 20,
+    padding: 20,
     borderRadius: 8,
     backgroundColor: '#FFF',
-    marginBottom: 16,
+    marginBottom: 20,
   },
 
   heroTitle: {
